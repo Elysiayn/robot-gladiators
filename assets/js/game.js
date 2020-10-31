@@ -98,11 +98,16 @@ var endGame = function() {
   else {
     window.alert("You've lost your robot in battle.");
   }
+<<<<<<< Updated upstream
 }
 
 // ask player if they'd like to play again
 var playAgainConfirm = window.confirm("Would you like to play again?");
 
+=======
+  // ask player if they'd like to play again
+var playAgainConfirm = window.confirm("Would you like to play again?");
+>>>>>>> Stashed changes
 if (playAgainConfirm) {
   // restart the game
   startGame();
@@ -110,7 +115,15 @@ if (playAgainConfirm) {
 else {
   window.alert("Thank you for playing Robot Gladiators! Come back soon!");
 }
+<<<<<<< Updated upstream
 
 
 // start the game when the page loads
 startGame();
+=======
+}
+
+
+// start the game when the page loads
+debugger; startGame(); 
+>>>>>>> Stashed changes
